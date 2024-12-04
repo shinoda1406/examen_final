@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Integral de Tri&aacute;ngulos</title>
+    <link rel="stylesheet" href="./css/dw.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Integral de Tri&aacute;ngulos</h1>
+        <p>Ingresa las medidas de los tres lados del tri&aacute;ngulo:</p>
+        <div class="input-section">
+            <label for="ladoA">Lado a:</label>
+            <input type="number" id="ladoA" placeholder="Ejemplo: 5" required>
+            <label for="ladoB">Lado b:</label>
+            <input type="number" id="ladoB" placeholder="Ejemplo: 6" required>
+            <label for="ladoC">Lado c:</label>
+            <input type="number" id="ladoC" placeholder="Ejemplo: 7" required>
+        </div>
+        <button onclick="calcularTriangulo()">Calcular</button>
+        <div class="results" id="resultados"></div>
+    </div>
+    <script src="./js/dw.js"></script>
+</body>
+</html>
